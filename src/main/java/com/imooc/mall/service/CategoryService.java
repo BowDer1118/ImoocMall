@@ -37,4 +37,10 @@ public interface CategoryService {
      * @return PageInfo物件
      */
     public PageInfo listForAdmin(Integer pageNum, Integer pageSize);
+
+    /**
+     * 獲取分類列表
+     * @return 分類列表的List
+     */
+    public List<CategoryVO> listCategoryForCustomer();
 }

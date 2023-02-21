@@ -13,6 +13,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 @Service("categoryService")
@@ -92,5 +93,17 @@ public class CategoryServiceImpl implements CategoryService {
         //依照分頁規則對categoryList進行分頁
         PageInfo pageInfo=new PageInfo(categoryList);
         return pageInfo;
+    }
+
+    /**
+     * 獲取分類列表
+     *
+     * @return 分類列表的List
+     */
+    @Override
+    public List<CategoryVO> listCategoryForCustomer() {
+        ArrayList<CategoryVO> categoryVOList=new ArrayList<>();
+
+        return null;
     }
 }

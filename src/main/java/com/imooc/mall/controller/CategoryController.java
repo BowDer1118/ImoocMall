@@ -110,4 +110,18 @@ public class CategoryController {
         PageInfo pageInfo = categoryService.listForAdmin(pageNum, pageSize);
         return ApiRestResponse.success(pageInfo);
     }
+
+    /**
+     * 列出分類的列表
+     * @param pageNum 第幾頁
+     * @param pageSize 每頁多少個物件
+     * @return ApiRestResponse
+     */
+    @ApiOperation("前台目錄列表")
+    @PostMapping("/category/list")
+    @ResponseBody
+    public ApiRestResponse listCategoryForCustomer(){
+        PageInfo pageInfo = categoryService
+        return ApiRestResponse.success(pageInfo);
+    }
 }
