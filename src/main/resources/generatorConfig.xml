@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <!-- 配置文件，放在resource目錄下即可 -->
+  <!--數據庫驅動個人配置-->
+  <!--指定MySQL Connector位置-->
+  <classPathEntry location="C:\Users\blue1\.m2\repository\mysql\mysql-connector-java\8.0.18\mysql-connector-java-8.0.18.jar"></classPathEntry>
+  <context id="MysqlTables" targetRuntime="MyBatis3">
+    <property name="autoDelimitKeywords" value="true"/>
+    <!--可以使用``包括字段名，避免字段名與sql保留字衝突報錯-->
+    <property name="beginningDelimiter" value="`"/>
+    <property name="endingDelimiter" value="`"/>
+    <!-- optional，旨在創建class時，對註釋進行控制 -->
+    <commentGenerator>
+      <property name="suppressDate" value="true"/>
+      <property name="suppressAllComments" value="true"/>
+    </commentGenerator>
+    <!--數據庫鏈接地址賬號密碼-->
+    <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+      connectionURL="jdbc:mysql://localhost:3306/imooc_mall?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;serverTimezone=GMT%2B8"
+      userId="root"
+      password="root">
+      <property name="nullCatalogMeansCurrent" value="true"/>
+    </jdbcConnection>
+    <!-- 非必需，類型處理器，在數據庫類型和java類型之間的轉換控制-->
+    <javaTypeResolver>
+      <property name="forceBigDecimals" value="false"/>
+    </javaTypeResolver>
+    <!--生成Model類存放位置-->
+    <javaModelGenerator targetPackage="com.imooc.mall.model.pojo"
+      targetProject="src/main/java">
+      <!-- 是否允許子包，即targetPackage.schemaName.tableName -->
+      <property name="enableSubPackages" value="true"/>
+      <!-- 是否對類CHAR類型的列的數據進行trim操作 -->
+      <property name="trimStrings" value="true"/>
+      <!-- 建立的Model對象是否 不可改變  即生成的Model對象不會有 setter方法，只有構造方法 -->
+      <property name="immutable" value="false"/>
+    </javaModelGenerator>
+    <!--生成mapper映射文件存放位置-->
+    <sqlMapGenerator targetPackage="mappers" targetProject="src/main/resources">
+      <property name="enableSubPackages" value="true"/>
+    </sqlMapGenerator>
+    <!--生成Dao類存放位置-->
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.imooc.mall.model.dao"
+      targetProject="src/main/java">
+      <property name="enableSubPackages" value="true"/>
+    </javaClientGenerator>
+    <!--生成對應表及類名-->
+    <table schema="root" tableName="imooc_mall_cart" domainObjectName="Cart"
+      enableCountByExample="false"
+      enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+      selectByExampleQueryId="false">
+    </table>
+    <table tableName="imooc_mall_category" domainObjectName="Category" enableCountByExample="false"
+      enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+      selectByExampleQueryId="false">
+    </table>
+    <table tableName="imooc_mall_order" domainObjectName="Order" enableCountByExample="false"
+      enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+      selectByExampleQueryId="false">
+    </table>
+    <table tableName="imooc_mall_order_item" domainObjectName="OrderItem"
+      enableCountByExample="false"
+      enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+      selectByExampleQueryId="false">
+    </table>
+    <table tableName="imooc_mall_product" domainObjectName="Product" enableCountByExample="false"
+      enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+      selectByExampleQueryId="false">
+    </table>
+    <table tableName="imooc_mall_user" domainObjectName="User" enableCountByExample="false"
+      enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+      selectByExampleQueryId="false">
+    </table>
+
+  </context>
+</generatorConfiguration>

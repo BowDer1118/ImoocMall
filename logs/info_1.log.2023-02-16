@@ -1,0 +1,29 @@
+[20:04:36:744] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 17616 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[20:04:36:747] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[20:04:37:558] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[20:04:37:564] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[20:04:37:565] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[20:04:37:566] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[20:04:37:567] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[20:04:37:567] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[20:04:37:567] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[20:04:37:569] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[20:04:37:636] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[20:04:37:636] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 838 ms
+[20:04:38:035] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[20:04:38:216] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[20:04:38:229] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[20:04:38:231] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 1.681 seconds (JVM running for 2.402)
+[20:04:42:772] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[20:04:42:772] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[20:04:42:777] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[20:04:42:795] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/register
+[20:04:42:795] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[20:04:42:795] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[20:04:42:796] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.register
+[20:04:42:796] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678]
+[20:04:42:817] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[20:04:42:896] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[20:05:17:154] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[20:05:17:154] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[20:05:17:161] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
