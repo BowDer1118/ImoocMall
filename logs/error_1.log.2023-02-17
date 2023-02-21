@@ -1,3 +1,0 @@
-[13:20:10:387] [ERROR] - com.imooc.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:41) - Default Exception: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
-[13:20:26:510] [ERROR] - com.imooc.mall.exception.GlobalExceptionHandler.handleImoocMallException(GlobalExceptionHandler.java:28) - ImoocMallException: ImoocMallException{code=10006, msg='用戶密碼錯誤'}
-[13:44:40:010] [ERROR] - com.imooc.mall.exception.GlobalExceptionHandler.handleImoocMallException(GlobalExceptionHandler.java:28) - ImoocMallException: ImoocMallException{code=10006, msg='用戶密碼錯誤'}
