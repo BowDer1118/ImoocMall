@@ -10,6 +10,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
+import java.security.NoSuchAlgorithmException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -20,7 +22,7 @@ class UserServiceTest {
 
 
     @Test
-    void register() throws ImoocMallException {
+    void register() throws ImoocMallException, NoSuchAlgorithmException {
         userService.register("德寶","12345678");
     }
 

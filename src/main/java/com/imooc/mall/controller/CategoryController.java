@@ -8,6 +8,7 @@ import com.imooc.mall.model.pojo.Category;
 import com.imooc.mall.model.pojo.User;
 import com.imooc.mall.model.request.AddCategoryRequest;
 import com.imooc.mall.model.request.UpdateCategoryRequest;
+import com.imooc.mall.model.vo.CategoryVO;
 import com.imooc.mall.service.CategoryService;
 import com.imooc.mall.service.UserService;
 import io.swagger.annotations.ApiOperation;
@@ -21,6 +22,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
+import java.util.List;
 
 /**
  * 目錄Controller
@@ -113,15 +115,13 @@ public class CategoryController {
 
     /**
      * 列出分類的列表
-     * @param pageNum 第幾頁
-     * @param pageSize 每頁多少個物件
      * @return ApiRestResponse
      */
     @ApiOperation("前台目錄列表")
     @PostMapping("/category/list")
     @ResponseBody
     public ApiRestResponse listCategoryForCustomer(){
-        PageInfo pageInfo = categoryService
-        return ApiRestResponse.success(pageInfo);
+        List<CategoryVO> categoryVOS = categoryService.listCategoryForCustomer();
+        return ApiRestResponse.success(categoryVOS);
     }
 }
