@@ -77,6 +77,7 @@ public class ProductAdminController {
         }
         //返回圖片的地址
         try {
+            //使用httpServletRequest.getRequestURL()獲取URL的StringBuffer並交給URI構造函數解析
             return ApiRestResponse.success(getHost(new URI(httpServletRequest.getRequestURL()+""))+"/images/"+newFileName);
         } catch (URISyntaxException e) {
             e.printStackTrace();
@@ -92,6 +93,12 @@ public class ProductAdminController {
     private URI getHost(URI uri){
         URI effectiveURI;
         try {
+            /**
+             * uri.getScheme() 獲取協定:http https...
+             * uri.getUserInfo() 獲取用戶訊息:帳號密碼...
+             * uri.getHost() 獲得主機ip
+             * uri.getPort() 獲得主機端口號
+             */
             effectiveURI=new URI(uri.getScheme(),uri.getUserInfo(), uri.getHost(), uri.getPort(), null,null,null);
         } catch (URISyntaxException e) {
             effectiveURI=null;
@@ -100,6 +107,6 @@ public class ProductAdminController {
     }
     @PostMapping("/admin/product/update")
     public ApiRestResponse updateProduct(@Valid @RequestBody UpdateProductRequest updateProductRequest){
-
+        return ApiRestResponse.success();
     }
 }
