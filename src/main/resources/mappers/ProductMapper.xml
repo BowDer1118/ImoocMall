@@ -155,4 +155,14 @@
     from imooc_mall.imooc_mall_product
     where name= #{name}
   </select>
+
+  <update id="batchUpdateSellStatus">
+    update imooc_mall.imooc_mall_product
+    set status = #{sellStatus}
+    where id in
+    <!--從ids陣列中取出每個物件稱為id 並接這些id依照(id1,id2,id3,...)拼接-->
+    <foreach collection="ids" item="id" separator="," open="(" close=")">
+        #{id}
+    </foreach>
+  </update>
 </mapper>

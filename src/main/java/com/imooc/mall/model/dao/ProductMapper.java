@@ -1,6 +1,7 @@
 package com.imooc.mall.model.dao;
 
 import com.imooc.mall.model.pojo.Product;
+import org.apache.ibatis.annotations.Param;
 
 public interface ProductMapper {
     int deleteByPrimaryKey(Integer id);
@@ -16,4 +17,6 @@ public interface ProductMapper {
     int updateByPrimaryKey(Product record);
 
     Product selectProductByName(String name);
+
+    int batchUpdateSellStatus(@Param("ids") Integer[] ids,@Param("sellStatus") Integer sellStatus);
 }

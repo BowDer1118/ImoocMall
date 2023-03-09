@@ -4,9 +4,11 @@ import com.imooc.mall.common.ApiRestResponse;
 import com.imooc.mall.common.Constant;
 import com.imooc.mall.exception.ImoocMallException;
 import com.imooc.mall.exception.ImoocMallExceptionEnum;
+import com.imooc.mall.model.pojo.Product;
 import com.imooc.mall.model.request.AddProductRequest;
 import com.imooc.mall.model.request.UpdateProductRequest;
 import com.imooc.mall.service.ProductService;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.*;
@@ -105,8 +107,45 @@ public class ProductAdminController {
         }
         return effectiveURI;
     }
+
+    /**
+     * 更新商品
+     * @param updateProductRequest 要更新的商品
+     * @return ApiRestResponse
+     */
     @PostMapping("/admin/product/update")
     public ApiRestResponse updateProduct(@Valid @RequestBody UpdateProductRequest updateProductRequest){
+        Product product=new Product();
+        BeanUtils.copyProperties(updateProductRequest,product);
+        productService.update(product);
+        return ApiRestResponse.success();
+    }
+
+    /**
+     * 刪除商品
+     * @param id 商品的id
+     * @return ApiRestResponse
+     */
+    @PostMapping("/admin/product/delete")
+    public ApiRestResponse deleteProduct(@RequestParam Integer id){
+        productService.delete(id);
+        return ApiRestResponse.success();
+    }
+
+    /**
+     * 批量更改商品銷售狀態
+     * @param ids 商品id陣列
+     * @param sellStatus 銷售狀態
+     * @return ApiRestResponse
+     */
+    @PostMapping("/admin/product/batchUpdateSellStatus")
+    public ApiRestResponse batchUpdateSellStatus(@RequestParam Integer[] ids,@RequestParam Integer sellStatus){
+        productService.batchUpdateSellStatus(ids,sellStatus);
+        return ApiRestResponse.success();
+    }
+
+    @PostMapping("/admin/product/list")
+    public ApiRestResponse list(@RequestParam Integer pageNum,@RequestParam Integer pageSize){
         return ApiRestResponse.success();
     }
 }

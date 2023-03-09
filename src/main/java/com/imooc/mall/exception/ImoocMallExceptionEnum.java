@@ -26,6 +26,8 @@ public enum ImoocMallExceptionEnum {
     PRODUCT_NAME_EXIST(10014,"商品名稱已存在"),
     PRODUCT_ADD_FAILED(100015,"商品插入資料庫失敗，請重新嘗試"),
     FILE_UPLOAD_FAILED(10016,"檔案上傳失敗，請重新嘗試"),
+    PRODUCT_UPDATE_FAILED(10017,"商品更新失敗，請重新嘗試"),
+    PRODUCT_DELETE_FAILED(10018,"商品刪除失敗，請重新嘗試"),
     //定義系統異常的枚舉
     //Global Exception Handler
     SYSTEM_ERROR(20000,"系統異常");
