@@ -1,0 +1,910 @@
+[12:54:17:549] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 2424 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[12:54:17:618] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[12:54:18:786] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[12:54:18:793] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[12:54:18:832] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+[12:54:18:982] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 14180 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[12:54:18:984] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[12:54:19:166] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[12:54:19:718] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[12:54:19:728] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[12:54:19:728] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:54:19:729] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[12:54:19:731] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[12:54:19:731] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:54:19:731] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:54:19:742] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[12:54:19:745] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[12:54:19:749] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[12:54:19:782] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[12:54:19:848] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:54:19:848] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2132 ms
+[12:54:20:006] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[12:54:20:466] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[12:54:20:481] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[12:54:20:483] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:54:20:485] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[12:54:20:488] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[12:54:20:488] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:54:20:489] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:54:20:492] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[12:54:20:593] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:54:20:593] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1549 ms
+[12:54:21:061] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[12:54:21:218] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:54:21:493] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[12:54:21:597] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:54:22:224] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[12:54:22:255] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[12:54:22:299] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[12:54:22:912] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[12:54:22:928] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[12:54:22:930] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.201 seconds (JVM running for 5.524)
+[12:54:26:677] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:54:29:947] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 20044 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[12:54:29:949] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[12:54:30:547] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[12:54:30:550] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[12:54:30:583] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[12:54:30:789] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[12:54:31:118] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[12:54:31:124] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[12:54:31:125] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:54:31:125] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[12:54:31:127] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[12:54:31:127] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:54:31:127] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:54:31:129] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[12:54:31:217] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:54:31:217] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1240 ms
+[12:54:31:991] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[12:54:32:098] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:54:32:428] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[12:54:32:441] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[12:54:32:463] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[12:54:32:736] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[12:54:32:750] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[12:54:32:753] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.046 seconds (JVM running for 3.981)
+[12:54:34:844] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[12:54:34:844] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[12:54:34:852] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[12:54:43:708] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[12:54:43:708] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[12:54:43:708] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[12:54:43:709] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[12:54:43:710] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@66b759dc]
+[12:54:43:737] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[12:54:43:842] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[12:54:43:911] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[12:56:18:643] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/product/add
+[12:56:18:643] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[12:56:18:643] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[12:56:18:643] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.addProduct
+[12:56:18:644] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [com.imooc.mall.model.request.AddProductRequest@301c7581]
+[12:56:18:705] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":null}
+[12:58:17:004] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[12:58:17:004] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[12:58:17:004] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[12:58:17:004] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[12:58:17:004] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@eb3f4ab, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@17a7dcee]
+[12:59:31:882] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:59:31:897] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[12:59:31:903] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[12:59:36:537] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 15096 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[12:59:36:545] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[12:59:37:151] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[12:59:37:153] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[12:59:37:175] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[12:59:37:394] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[12:59:37:701] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[12:59:37:738] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[12:59:37:738] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:59:37:739] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[12:59:37:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[12:59:37:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:59:37:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:59:37:742] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[12:59:37:829] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:59:37:830] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1235 ms
+[12:59:38:598] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[12:59:38:721] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:59:39:060] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[12:59:39:071] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[12:59:39:092] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[12:59:39:339] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[12:59:39:385] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[12:59:39:393] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.067 seconds (JVM running for 4.107)
+[12:59:55:074] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:59:59:694] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 9088 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[12:59:59:697] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:00:00:347] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:00:00:350] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:00:00:378] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[13:00:00:575] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:00:00:896] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:00:00:903] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:00:00:903] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:00:00:904] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:00:00:905] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:00:00:905] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:00:00:905] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:00:00:908] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:00:00:991] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:00:00:991] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1239 ms
+[13:00:01:731] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:00:01:832] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:00:02:154] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:00:02:165] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:00:02:186] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:00:02:437] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:00:02:451] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:00:02:453] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.986 seconds (JVM running for 3.995)
+[13:00:07:130] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:00:07:130] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:00:07:137] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:00:07:174] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:00:07:174] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:00:07:174] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:00:07:175] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:00:07:175] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@142893a, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5fcd2294]
+[13:00:42:596] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:00:47:426] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 7916 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:00:47:458] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:00:48:065] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:00:48:067] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:00:48:095] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[13:00:48:294] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:00:48:621] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:00:48:627] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:00:48:628] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:00:48:628] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:00:48:629] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:00:48:629] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:00:48:629] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:00:48:632] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:00:48:720] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:00:48:720] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1233 ms
+[13:00:49:036] [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$2(AutowiredAnnotationBeanPostProcessor.java:492) - Autowired annotation is not supported on static methods: public static void com.imooc.mall.common.Constant.setFileUploadDir(java.lang.String)
+[13:00:49:036] [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$2(AutowiredAnnotationBeanPostProcessor.java:492) - Autowired annotation is not supported on static methods: public static void com.imooc.mall.common.Constant.setFileUploadDir(java.lang.String)
+[13:00:49:523] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:00:49:626] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:00:49:959] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:00:49:971] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:00:49:992] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:00:50:242] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:00:50:256] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:00:50:259] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.051 seconds (JVM running for 4.165)
+[13:00:51:284] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:00:51:284] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:00:51:291] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:00:51:326] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:00:51:326] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:00:51:326] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:00:51:328] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:00:51:328] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@57d717ab, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6b844ffd]
+[13:01:05:732] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:01:08:997] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 19220 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:01:09:002] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:01:09:677] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:01:09:680] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:01:09:712] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[13:01:09:905] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:01:10:229] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:01:10:234] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:01:10:235] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:01:10:235] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:01:10:236] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:01:10:237] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:01:10:237] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:01:10:239] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:01:10:322] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:01:10:322] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1263 ms
+[13:01:10:632] [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$2(AutowiredAnnotationBeanPostProcessor.java:492) - Autowired annotation is not supported on static methods: public static void com.imooc.mall.common.Constant.setFileUploadDir(java.lang.String)
+[13:01:10:632] [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$2(AutowiredAnnotationBeanPostProcessor.java:492) - Autowired annotation is not supported on static methods: public static void com.imooc.mall.common.Constant.setFileUploadDir(java.lang.String)
+[13:01:11:107] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:01:11:211] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:01:11:522] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:01:11:532] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:01:11:555] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:01:11:807] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:01:11:821] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:01:11:823] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.044 seconds (JVM running for 3.971)
+[13:01:34:878] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:01:39:876] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 18676 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:01:39:878] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:01:40:549] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:01:40:551] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:01:40:582] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+[13:01:40:793] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:01:41:125] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:01:41:131] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:01:41:131] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:01:41:131] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:01:41:132] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:01:41:133] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:01:41:133] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:01:41:135] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:01:41:223] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:01:41:224] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1280 ms
+[13:01:41:520] [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$2(AutowiredAnnotationBeanPostProcessor.java:492) - Autowired annotation is not supported on static methods: public static void com.imooc.mall.common.Constant.setFileUploadDir(java.lang.String)
+[13:01:41:520] [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$2(AutowiredAnnotationBeanPostProcessor.java:492) - Autowired annotation is not supported on static methods: public static void com.imooc.mall.common.Constant.setFileUploadDir(java.lang.String)
+[13:01:42:006] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:01:42:111] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:01:42:431] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:01:42:442] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:01:42:463] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:01:42:719] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:01:42:737] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:01:42:739] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.087 seconds (JVM running for 4.172)
+[13:01:43:533] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:01:43:533] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:01:43:540] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:01:43:563] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:01:43:563] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:01:43:563] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:01:43:565] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:01:43:565] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@4d728458]
+[13:01:43:590] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:01:43:676] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:01:43:739] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:01:46:319] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:01:46:319] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:01:46:319] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:01:46:320] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:01:46:320] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@4d728458]
+[13:01:46:328] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:01:48:956] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:01:48:956] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:01:48:956] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:01:48:956] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:01:48:956] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@36eb9662, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@3e647524]
+[13:03:05:971] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:03:05:986] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:03:05:992] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:03:11:462] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 14212 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:03:11:464] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:03:12:151] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:03:12:154] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:03:12:178] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[13:03:12:438] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:03:12:815] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:03:12:823] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:03:12:824] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:03:12:824] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:03:12:826] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:03:12:827] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:03:12:827] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:03:12:829] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:03:12:918] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:03:12:919] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1419 ms
+[13:03:13:252] [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$2(AutowiredAnnotationBeanPostProcessor.java:492) - Autowired annotation is not supported on static methods: public static void com.imooc.mall.common.Constant.setFileUploadDir(java.lang.String)
+[13:03:13:252] [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$2(AutowiredAnnotationBeanPostProcessor.java:492) - Autowired annotation is not supported on static methods: public static void com.imooc.mall.common.Constant.setFileUploadDir(java.lang.String)
+[13:03:13:780] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:03:13:908] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:03:14:292] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:03:14:306] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:03:14:334] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:03:14:614] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:03:14:631] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:03:14:633] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.482 seconds (JVM running for 4.649)
+[13:03:18:824] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:03:18:824] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:03:18:830] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[13:03:18:856] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:03:18:856] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:03:18:856] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:03:18:858] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:03:18:858] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@65c0a564]
+[13:03:18:888] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:03:19:001] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:03:19:070] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:03:25:834] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:03:25:834] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:03:25:834] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:03:25:835] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:03:25:835] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@2bd9174f, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5b20eb1d]
+[13:05:15:902] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:787) - imooc_mall_datasource - Thread starvation or clock leap detected (housekeeper delta=1m56s786ms575µs200ns).
+[13:05:15:941] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:05:15:960] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:05:15:969] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:05:20:827] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 3528 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:05:20:830] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:05:21:548] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:05:21:551] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:05:21:577] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[13:05:21:857] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:05:22:240] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:05:22:247] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:05:22:248] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:05:22:249] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:05:22:250] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:05:22:251] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:05:22:251] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:05:22:253] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:05:22:343] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:05:22:344] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1445 ms
+[13:05:23:244] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:05:23:386] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:05:23:780] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:05:23:793] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:05:23:819] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:05:24:140] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:05:24:161] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:05:24:163] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.574 seconds (JVM running for 4.868)
+[13:05:24:849] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:05:24:850] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:05:24:857] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:05:24:885] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:05:24:886] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:05:24:886] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:05:24:887] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:05:24:887] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@65837893]
+[13:05:24:918] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:05:25:014] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:05:25:087] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:05:25:485] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:05:25:485] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:05:25:485] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:05:25:485] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:05:25:485] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@65837893]
+[13:05:25:495] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:05:26:686] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:05:26:686] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:05:26:686] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:05:26:686] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:05:26:686] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@65837893]
+[13:05:26:693] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:05:33:948] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:05:33:948] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:05:33:948] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:05:33:948] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:05:33:949] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@c1f43e7, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@54d96ad6]
+[13:07:37:905] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:07:37:920] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:07:37:927] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:07:42:651] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 17796 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:07:42:654] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:07:43:325] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:07:43:329] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:07:43:353] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[13:07:43:571] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:07:43:930] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:07:43:937] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:07:43:937] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:07:43:938] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:07:43:940] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:07:43:940] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:07:43:940] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:07:43:942] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:07:44:029] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:07:44:029] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1345 ms
+[13:07:44:868] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:07:44:989] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:07:45:403] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:07:45:416] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:07:45:443] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:07:45:724] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:07:45:740] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:07:45:742] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.345 seconds (JVM running for 4.352)
+[13:07:52:625] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:07:52:625] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:07:52:631] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[13:07:52:658] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:07:52:658] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:07:52:658] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:07:52:659] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:07:52:660] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@1444d875]
+[13:07:52:690] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:07:52:789] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:07:52:862] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:07:56:426] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:07:56:427] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:07:56:427] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:07:56:427] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:07:56:427] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@30847536, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@31e10f33]
+[13:08:28:014] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:08:28:029] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:08:28:035] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:08:31:729] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 17136 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:08:31:732] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:08:32:404] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:08:32:407] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:08:32:430] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[13:08:32:657] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:08:33:017] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:08:33:024] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:08:33:025] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:08:33:025] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:08:33:027] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:08:33:027] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:08:33:027] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:08:33:031] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:08:33:120] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:08:33:120] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1357 ms
+[13:08:33:932] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:08:34:043] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:08:34:391] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:08:34:405] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:08:34:430] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:08:34:700] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:08:34:717] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:08:34:719] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.257 seconds (JVM running for 4.305)
+[13:09:08:004] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:09:08:004] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:09:08:011] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:09:08:038] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:09:08:038] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:09:08:039] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:09:08:040] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:09:08:040] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@1540a0dc]
+[13:09:08:069] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:09:08:163] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:09:08:231] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:09:10:055] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:09:10:055] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:09:10:055] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:09:10:055] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:09:10:055] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@142f34a2, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5705c558]
+[13:09:42:718] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:09:42:733] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:09:42:738] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:09:46:478] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 5892 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:09:46:481] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:09:47:162] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:09:47:165] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:09:47:195] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[13:09:47:447] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:09:47:838] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:09:47:845] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:09:47:846] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:09:47:846] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:09:47:848] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:09:47:848] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:09:47:848] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:09:47:852] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:09:47:945] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:09:47:946] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1432 ms
+[13:09:48:795] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:09:48:924] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:09:49:295] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:09:49:310] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:09:49:337] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:09:49:622] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:09:49:638] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:09:49:640] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.418 seconds (JVM running for 4.728)
+[13:12:00:867] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:12:00:867] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:12:00:875] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[13:12:00:893] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/category/list
+[13:12:00:893] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:12:00:893] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:12:00:894] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.listCategoryForCustomer
+[13:12:00:894] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : []
+[13:12:00:990] [INFO] - io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68) - Starting without optional epoll library
+[13:12:00:992] [INFO] - io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70) - Starting without optional kqueue library
+[13:12:45:773] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:13:44:659] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 14452 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:13:44:661] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:13:45:338] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:13:45:341] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:13:45:366] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[13:13:45:590] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:13:45:943] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:13:45:951] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:13:45:951] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:13:45:952] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:13:45:953] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:13:45:954] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:13:45:954] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:13:45:956] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:13:46:044] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:13:46:044] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1349 ms
+[13:13:46:850] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:13:46:963] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:13:47:326] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:13:47:340] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:13:47:365] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:13:47:642] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:13:47:658] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:13:47:661] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.276 seconds (JVM running for 4.523)
+[13:13:49:813] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:13:49:813] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:13:49:819] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[13:13:49:836] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/category/list
+[13:13:49:836] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:13:49:836] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:13:49:837] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.listCategoryForCustomer
+[13:13:49:838] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : []
+[13:13:49:921] [INFO] - io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68) - Starting without optional epoll library
+[13:13:49:923] [INFO] - io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70) - Starting without optional kqueue library
+[13:14:48:432] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:14:51:847] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 10280 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:14:51:850] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:14:52:526] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:14:52:529] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:14:52:553] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[13:14:52:791] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:14:53:174] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:14:53:180] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:14:53:182] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:14:53:182] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:14:53:183] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:14:53:183] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:14:53:183] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:14:53:186] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:14:53:275] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:14:53:275] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1392 ms
+[13:14:54:130] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:14:54:252] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:14:54:590] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:14:54:604] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:14:54:629] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:14:54:904] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:14:54:919] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:14:54:922] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.356 seconds (JVM running for 4.432)
+[13:14:58:051] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:14:58:051] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:14:58:058] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:14:58:076] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/category/list
+[13:14:58:076] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:14:58:076] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:14:58:077] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.listCategoryForCustomer
+[13:14:58:078] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : []
+[13:14:58:164] [INFO] - io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68) - Starting without optional epoll library
+[13:14:58:166] [INFO] - io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70) - Starting without optional kqueue library
+[13:14:58:436] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:14:58:548] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:14:58:681] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":[{"id":3,"name":"新鮮水果","type":1,"parentId":0,"orderNum":1,"createTime":1576603020000,"updateTime":1577524286000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":3,"orderNum":1,"createTime":1576603020000,"updateTime":1577521510000,"childCategory":[{"id":19,"name":"果凍橙","type":3,"parentId":4,"orderNum":1,"createTime":1576603020000,"updateTime":1581352622000,"childCategory":[]}]},{"id":11,"name":"草莓","type":2,"parentId":3,"orderNum":2,"createTime":1576603020000,"updateTime":1577519082000,"childCategory":[]},{"id":12,"name":"奇異果","type":2,"parentId":3,"orderNum":3,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]},{"id":14,"name":"車厘子","type":2,"parentId":3,"orderNum":4,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]},{"id":28,"name":"其他水果","type":2,"parentId":3,"orderNum":4,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]}]},{"id":5,"name":"海鮮水產","type":1,"parentId":0,"orderNum":2,"createTime":1576603020000,"updateTime":1577521520000,"childCategory":[{"id":7,"name":"螃蟹","type":2,"parentId":5,"orderNum":1,"createTime":1576603020000,"updateTime":1577521515000,"childCategory":[]},{"id":8,"name":"魚類","type":2,"parentId":5,"orderNum":2,"createTime":1576603020000,"updateTime":1577521516000,"childCategory":[]},{"id":13,"name":"海參","type":2,"parentId":5,"orderNum":3,"createTime":1576603020000,"updateTime":1577521517000,"childCategory":[]}]},{"id":6,"name":"精選肉類","type":1,"parentId":0,"orderNum":3,"createTime":1576603020000,"updateTime":1577521521000,"childCategory":[{"id":16,"name":"牛羊肉","type":2,"parentId":6,"orderNum":1,"createTime":1576603020000,"updateTime":1577521518000,"childCategory":[]},{"id":29,"name":"鴨貨","type":2,"parentId":6,"orderNum":10,"createTime":1676704864000,"updateTime":1676792329000,"childCategory":[]}]},{"id":9,"name":"冷飲凍食","type":1,"parentId":0,"orderNum":4,"createTime":1576820728000,"updateTime":1577521522000,"childCategory":[{"id":17,"name":"冰淇淋","type":2,"parentId":9,"orderNum":1,"createTime":1576603020000,"updateTime":1577521518000,"childCategory":[]}]},{"id":10,"name":"蔬菜蛋品","type":1,"parentId":0,"orderNum":5,"createTime":1576820728000,"updateTime":1577521523000,"childCategory":[{"id":18,"name":"蔬菜綜合","type":2,"parentId":10,"orderNum":1,"createTime":1576603020000,"updateTime":1581353307000,"childCategory":[]}]},{"id":27,"name":"美味菌菇","type":1,"parentId":0,"orderNum":7,"createTime":1576820728000,"updateTime":1581348036000,"childCategory":[{"id":15,"name":"火鍋食材","type":2,"parentId":27,"orderNum":5,"createTime":1576603020000,"updateTime":1581352953000,"childCategory":[]}]}]}
+[13:15:12:372] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/category/list
+[13:15:12:372] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:15:12:372] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:15:12:372] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.listCategoryForCustomer
+[13:15:12:372] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : []
+[13:15:12:386] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":[{"id":3,"name":"新鮮水果","type":1,"parentId":0,"orderNum":1,"createTime":1576603020000,"updateTime":1577524286000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":3,"orderNum":1,"createTime":1576603020000,"updateTime":1577521510000,"childCategory":[{"id":19,"name":"果凍橙","type":3,"parentId":4,"orderNum":1,"createTime":1576603020000,"updateTime":1581352622000,"childCategory":[]}]},{"id":11,"name":"草莓","type":2,"parentId":3,"orderNum":2,"createTime":1576603020000,"updateTime":1577519082000,"childCategory":[]},{"id":12,"name":"奇異果","type":2,"parentId":3,"orderNum":3,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]},{"id":14,"name":"車厘子","type":2,"parentId":3,"orderNum":4,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]},{"id":28,"name":"其他水果","type":2,"parentId":3,"orderNum":4,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]}]},{"id":5,"name":"海鮮水產","type":1,"parentId":0,"orderNum":2,"createTime":1576603020000,"updateTime":1577521520000,"childCategory":[{"id":7,"name":"螃蟹","type":2,"parentId":5,"orderNum":1,"createTime":1576603020000,"updateTime":1577521515000,"childCategory":[]},{"id":8,"name":"魚類","type":2,"parentId":5,"orderNum":2,"createTime":1576603020000,"updateTime":1577521516000,"childCategory":[]},{"id":13,"name":"海參","type":2,"parentId":5,"orderNum":3,"createTime":1576603020000,"updateTime":1577521517000,"childCategory":[]}]},{"id":6,"name":"精選肉類","type":1,"parentId":0,"orderNum":3,"createTime":1576603020000,"updateTime":1577521521000,"childCategory":[{"id":16,"name":"牛羊肉","type":2,"parentId":6,"orderNum":1,"createTime":1576603020000,"updateTime":1577521518000,"childCategory":[]},{"id":29,"name":"鴨貨","type":2,"parentId":6,"orderNum":10,"createTime":1676704864000,"updateTime":1676792329000,"childCategory":[]}]},{"id":9,"name":"冷飲凍食","type":1,"parentId":0,"orderNum":4,"createTime":1576820728000,"updateTime":1577521522000,"childCategory":[{"id":17,"name":"冰淇淋","type":2,"parentId":9,"orderNum":1,"createTime":1576603020000,"updateTime":1577521518000,"childCategory":[]}]},{"id":10,"name":"蔬菜蛋品","type":1,"parentId":0,"orderNum":5,"createTime":1576820728000,"updateTime":1577521523000,"childCategory":[{"id":18,"name":"蔬菜綜合","type":2,"parentId":10,"orderNum":1,"createTime":1576603020000,"updateTime":1581353307000,"childCategory":[]}]},{"id":27,"name":"美味菌菇","type":1,"parentId":0,"orderNum":7,"createTime":1576820728000,"updateTime":1581348036000,"childCategory":[{"id":15,"name":"火鍋食材","type":2,"parentId":27,"orderNum":5,"createTime":1576603020000,"updateTime":1581352953000,"childCategory":[]}]}]}
+[13:15:13:167] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/category/list
+[13:15:13:167] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:15:13:167] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:15:13:167] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.CategoryController.listCategoryForCustomer
+[13:15:13:167] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : []
+[13:15:13:179] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":[{"id":3,"name":"新鮮水果","type":1,"parentId":0,"orderNum":1,"createTime":1576603020000,"updateTime":1577524286000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":3,"orderNum":1,"createTime":1576603020000,"updateTime":1577521510000,"childCategory":[{"id":19,"name":"果凍橙","type":3,"parentId":4,"orderNum":1,"createTime":1576603020000,"updateTime":1581352622000,"childCategory":[]}]},{"id":11,"name":"草莓","type":2,"parentId":3,"orderNum":2,"createTime":1576603020000,"updateTime":1577519082000,"childCategory":[]},{"id":12,"name":"奇異果","type":2,"parentId":3,"orderNum":3,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]},{"id":14,"name":"車厘子","type":2,"parentId":3,"orderNum":4,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]},{"id":28,"name":"其他水果","type":2,"parentId":3,"orderNum":4,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]}]},{"id":5,"name":"海鮮水產","type":1,"parentId":0,"orderNum":2,"createTime":1576603020000,"updateTime":1577521520000,"childCategory":[{"id":7,"name":"螃蟹","type":2,"parentId":5,"orderNum":1,"createTime":1576603020000,"updateTime":1577521515000,"childCategory":[]},{"id":8,"name":"魚類","type":2,"parentId":5,"orderNum":2,"createTime":1576603020000,"updateTime":1577521516000,"childCategory":[]},{"id":13,"name":"海參","type":2,"parentId":5,"orderNum":3,"createTime":1576603020000,"updateTime":1577521517000,"childCategory":[]}]},{"id":6,"name":"精選肉類","type":1,"parentId":0,"orderNum":3,"createTime":1576603020000,"updateTime":1577521521000,"childCategory":[{"id":16,"name":"牛羊肉","type":2,"parentId":6,"orderNum":1,"createTime":1576603020000,"updateTime":1577521518000,"childCategory":[]},{"id":29,"name":"鴨貨","type":2,"parentId":6,"orderNum":10,"createTime":1676704864000,"updateTime":1676792329000,"childCategory":[]}]},{"id":9,"name":"冷飲凍食","type":1,"parentId":0,"orderNum":4,"createTime":1576820728000,"updateTime":1577521522000,"childCategory":[{"id":17,"name":"冰淇淋","type":2,"parentId":9,"orderNum":1,"createTime":1576603020000,"updateTime":1577521518000,"childCategory":[]}]},{"id":10,"name":"蔬菜蛋品","type":1,"parentId":0,"orderNum":5,"createTime":1576820728000,"updateTime":1577521523000,"childCategory":[{"id":18,"name":"蔬菜綜合","type":2,"parentId":10,"orderNum":1,"createTime":1576603020000,"updateTime":1581353307000,"childCategory":[]}]},{"id":27,"name":"美味菌菇","type":1,"parentId":0,"orderNum":7,"createTime":1576820728000,"updateTime":1581348036000,"childCategory":[{"id":15,"name":"火鍋食材","type":2,"parentId":27,"orderNum":5,"createTime":1576603020000,"updateTime":1581352953000,"childCategory":[]}]}]}
+[13:46:59:242] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:46:59:375] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:46:59:379] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:47:18:156] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 13400 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:47:18:159] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:47:18:842] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:47:18:846] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:47:18:872] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[13:47:19:106] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:47:19:473] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:47:19:480] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:47:19:481] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:47:19:481] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:47:19:483] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:47:19:483] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:47:19:483] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:47:19:486] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:47:19:578] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:47:19:578] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1386 ms
+[13:47:20:483] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:47:20:595] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:47:20:981] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:47:20:996] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:47:21:022] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:47:21:307] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:47:21:324] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:47:21:326] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.442 seconds (JVM running for 4.742)
+[13:47:23:578] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:47:23:578] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:47:23:585] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:47:23:613] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:47:23:613] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:47:23:613] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:47:23:614] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:47:23:614] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@5c60e35b]
+[13:47:23:646] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:47:23:768] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:47:23:846] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:47:25:980] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:47:25:980] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:47:25:980] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:47:25:980] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:47:25:980] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@6d07cb34, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@33ecc12f]
+[13:50:10:075] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:50:10:092] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:50:10:099] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:50:13:539] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 10412 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:50:13:541] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:50:14:232] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:50:14:235] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:50:14:260] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[13:50:14:505] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:50:14:875] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:50:14:881] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:50:14:882] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:50:14:883] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:50:14:885] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:50:14:885] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:50:14:885] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:50:14:888] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:50:14:987] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:50:14:988] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1415 ms
+[13:50:15:920] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:50:16:041] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:50:16:429] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:50:16:443] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:50:16:469] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:50:16:759] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:50:16:775] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:50:16:778] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.506 seconds (JVM running for 4.813)
+[13:50:24:533] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:50:24:533] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:50:24:538] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[13:50:24:566] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:50:24:566] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:50:24:566] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:50:24:567] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:50:24:567] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@6ba91135]
+[13:50:24:597] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:50:24:717] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:50:24:803] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:50:27:631] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:50:27:631] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:50:27:631] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:50:27:631] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:50:27:631] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@6c0bce14, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6c58793f]
+[13:51:07:351] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:51:07:369] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:51:07:378] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:51:10:660] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 7924 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:51:10:662] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:51:11:434] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:51:11:437] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:51:11:465] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[13:51:11:736] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:51:12:137] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:51:12:144] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:51:12:145] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:51:12:145] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:51:12:146] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:51:12:146] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:51:12:147] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:51:12:149] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:51:12:246] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:51:12:246] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1550 ms
+[13:51:13:114] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:51:13:237] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:51:13:613] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:51:13:627] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:51:13:653] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:51:14:000] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:51:14:018] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:51:14:021] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.63 seconds (JVM running for 4.713)
+[13:51:25:067] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:51:25:067] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:51:25:073] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[13:51:25:103] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:51:25:103] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:51:25:104] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:51:25:105] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:51:25:106] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@94abda9]
+[13:51:25:136] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:51:25:239] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:51:25:325] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:51:26:959] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:51:26:959] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:51:26:959] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:51:26:959] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:51:26:959] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@36989881, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7e1a5ac0]
+[13:51:32:697] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":"http://localhost:8083/admin/upload/file/image/6b5ce8df-28f3-494e-8855-e3be553d5e33.png"}
+[13:53:07:224] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:53:07:240] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:53:07:246] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:53:12:317] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 796 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:53:12:320] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:53:13:019] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:53:13:022] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:53:13:047] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[13:53:13:294] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:53:13:685] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:53:13:693] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:53:13:695] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:53:13:695] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:53:13:696] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:53:13:697] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:53:13:697] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:53:13:700] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:53:13:795] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:53:13:795] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1441 ms
+[13:53:14:669] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:53:14:789] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:53:15:172] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:53:15:187] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:53:15:215] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:53:15:508] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:53:15:531] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:53:15:533] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.498 seconds (JVM running for 4.586)
+[13:53:17:689] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:53:17:690] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:53:17:697] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:53:17:727] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/adminLogin
+[13:53:17:727] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:53:17:727] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:53:17:729] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.UserController.adminLogin
+[13:53:17:729] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [德寶, 12345678, org.apache.catalina.session.StandardSessionFacade@305419bf]
+[13:53:17:778] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:53:17:888] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:53:17:988] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":{"id":12,"username":"德寶","password":null,"personalizedSignature":"更新後的個性簽名2","role":2,"createTime":1676611150000,"updateTime":1676612589000}}
+[13:53:19:826] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:53:19:826] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:53:19:826] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:53:19:826] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:53:19:826] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@202e9117, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7b367d89]
+[13:53:19:832] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":"http://localhost:8083/admin/upload/file/image/3540d702-b2c9-4dae-b150-e09a31829e1e.png"}
+[13:58:28:405] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:58:28:421] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:58:28:425] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:58:32:161] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 8744 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:58:32:163] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:58:32:837] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:58:32:841] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:58:32:868] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[13:58:33:098] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:58:33:467] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:58:33:475] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:58:33:476] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:58:33:476] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:58:33:478] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:58:33:478] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:58:33:478] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:58:33:480] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:58:33:573] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:58:33:573] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1377 ms
+[13:58:34:426] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:58:34:541] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:58:34:898] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:58:34:912] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:58:34:938] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:58:35:217] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:58:35:234] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:58:35:236] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.34 seconds (JVM running for 4.422)
+[13:58:50:290] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:58:50:290] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:58:50:297] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:58:50:338] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:58:50:338] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:58:50:339] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:58:50:340] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:58:50:340] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@45403a80, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2c29c661]
+[13:59:35:735] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":"http://localhost:8083/admin/upload/file/image/46ce4bec-c013-4149-b6c1-b162db06f20d.png"}
+[13:59:35:744] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:59:39:314] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 3416 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[13:59:39:317] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:59:39:967] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[13:59:39:970] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[13:59:39:994] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[13:59:40:212] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:59:40:566] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[13:59:40:573] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[13:59:40:574] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:59:40:575] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:59:40:576] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[13:59:40:576] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:59:40:576] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:59:40:579] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[13:59:40:669] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:59:40:670] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1323 ms
+[13:59:41:511] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[13:59:41:635] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:59:42:067] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[13:59:42:082] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[13:59:42:113] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[13:59:42:392] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[13:59:42:407] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[13:59:42:410] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.355 seconds (JVM running for 4.358)
+[13:59:48:838] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:59:48:838] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:59:48:860] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 22 ms
+[13:59:48:901] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[13:59:48:901] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[13:59:48:901] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[13:59:48:903] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[13:59:48:903] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@583eb05a, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@171e31a3]
+[13:59:53:773] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":"http://localhost:8083/admin/upload/file/image/883889f6-7ff0-4ccb-b214-8db2fab0291a.png"}
+[14:02:42:158] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[14:02:47:060] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 17828 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[14:02:47:063] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[14:02:47:832] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[14:02:47:834] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[14:02:47:861] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[14:02:48:097] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[14:02:48:487] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[14:02:48:494] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[14:02:48:495] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[14:02:48:496] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[14:02:48:497] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[14:02:48:497] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[14:02:48:497] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[14:02:48:500] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[14:02:48:594] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[14:02:48:594] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1495 ms
+[14:02:49:465] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[14:02:49:581] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[14:02:49:953] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[14:02:49:967] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[14:02:49:994] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[14:02:50:290] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[14:02:50:307] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[14:02:50:310] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.513 seconds (JVM running for 4.749)
+[14:02:58:318] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:02:58:319] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[14:02:58:325] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[14:03:17:793] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[14:03:17:794] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[14:03:17:794] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[14:03:17:810] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[14:03:17:810] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@4518be1f, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@495a23aa]
+[14:03:17:831] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":"http://localhost:8083/admin/upload/file/image/7fdb1f58-9a04-4762-b519-de630dca9fe3.png"}
+[14:04:33:835] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[14:04:38:856] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 13504 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[14:04:38:858] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[14:04:39:602] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[14:04:39:605] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[14:04:39:630] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[14:04:39:861] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[14:04:40:220] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[14:04:40:227] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[14:04:40:228] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[14:04:40:228] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[14:04:40:230] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[14:04:40:230] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[14:04:40:230] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[14:04:40:232] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[14:04:40:330] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[14:04:40:330] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1440 ms
+[14:04:41:144] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[14:04:41:257] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[14:04:41:620] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[14:04:41:634] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[14:04:41:659] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[14:04:41:936] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[14:04:41:952] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[14:04:41:954] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.36 seconds (JVM running for 4.43)
+[14:04:45:358] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:04:45:358] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[14:04:45:365] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[14:06:22:388] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[14:06:27:441] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on DESKTOP-1QG6CVI with PID 7340 (C:\IdeaWorkspace\mall\target\classes started by blue1 in C:\IdeaWorkspace\mall)
+[14:06:27:443] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[14:06:28:111] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[14:06:28:114] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[14:06:28:139] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[14:06:28:369] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[14:06:28:732] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8083 (http)
+[14:06:28:739] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8083"]
+[14:06:28:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[14:06:28:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[14:06:28:742] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+[14:06:28:742] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[14:06:28:742] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[14:06:28:744] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+[14:06:28:834] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[14:06:28:834] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1359 ms
+[14:06:29:650] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[14:06:29:762] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[14:06:30:107] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[14:06:30:121] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[14:06:30:146] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[14:06:30:415] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8083"]
+[14:06:30:430] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8083 (http) with context path ''
+[14:06:30:433] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.259 seconds (JVM running for 4.25)
+[14:07:03:673] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:07:03:673] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[14:07:03:681] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[14:07:09:843] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:60) - URL : http://localhost:8083/admin/upload/file
+[14:07:09:843] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:62) - HTTP_METHOD : POST
+[14:07:09:843] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:64) - IP : 0:0:0:0:0:0:0:1
+[14:07:09:845] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:67) - CLASS_METHOD : com.imooc.mall.controller.ProductAdminController.upload
+[14:07:09:845] [INFO] - com.imooc.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:70) - ARGS : [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@74e11a64, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@385d9802]
+[14:07:09:867] [INFO] - com.imooc.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:85) - RESPONSE : {"statues":10000,"msg":"SUCCESS","data":"http://localhost:8083/images/a4b596f4-f673-41c2-862b-ec27ad286c40.png"}
+[14:18:51:800] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'

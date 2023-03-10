@@ -1,0 +1,3 @@
+[13:50:37:236] [ERROR] - com.imooc.mall.exception.GlobalExceptionHandler.handleImoocMallException(GlobalExceptionHandler.java:34) - ImoocMallException: ImoocMallException{code=10014, msg='商品名稱已存在'}
+[13:57:15:855] [ERROR] - com.imooc.mall.exception.GlobalExceptionHandler.handleImoocMallException(GlobalExceptionHandler.java:34) - ImoocMallException: ImoocMallException{code=10018, msg='商品刪除失敗，請重新嘗試'}
+[14:54:38:585] [ERROR] - com.imooc.mall.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:48) - Default Exception: org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'sellStatus' is not present
