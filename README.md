@@ -1,5 +1,7 @@
 # ImoocMall (Not Finish yet... Keep updating!)
-### ImoocMall is a back-end web application for serving a food shopping mall (e-commerce platform).
+### ImoocMall is a back-end web application for serving a food shopping mall (e-commerce platform).<br>
+This application will implement the API document:幕幕生鮮接口文檔<br>
+Link: https://shimo.im/docs/K3WhpQ33RcqvkdyD/read
 
 ### Frameworks
 1. SpringBoot:Provide an auto-configuration application for Spring framework.
